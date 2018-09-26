@@ -6,4 +6,4 @@ docker run \
        -v "$(pwd)":/usr/src/mymaven \
        -w /usr/src/mymaven \
        svenruppert/maven-3.5-jdk-oracle-10 \
-       mvn clean install -Dmaven.test.skip=true
+       mvn clean install -Dmaven.test.skip=false
